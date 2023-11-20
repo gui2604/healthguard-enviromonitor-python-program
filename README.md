@@ -8,3 +8,7 @@ Nesse contexto, o projeto HealthGuard EnviroMonitor propõe um dispositivo equip
 Diversos ambientes podem apresentar características não perceptíveis que afetam a saúde e muitas vezes são negligenciadas. Exemplos incluem a umidade, onde a recomendação da OMS é entre 50% e 60%, pois índices superiores favorecem a proliferação de fungos e bactérias. A baixa umidade, por outro lado, pode causar problemas respiratórios. A luminosidade inadequada pode contribuir para a proliferação de microrganismos, enquanto a exposição excessiva à luz intensa pode ter efeitos prejudiciais à saúde.
 Similarmente, a medição da temperatura média do ambiente é crucial para a salubridade, especialmente em profissões que envolvem exposição prolongada a condições extremas. Esses três elementos – umidade, luminosidade e temperatura – constituem a base do projeto HealthGuard EnviroMonitor. 
 </p>
+<img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/314fc0f3-e2c1-4d5e-9955-6603b2946760" width=300px>
+<p>O monitoramento desses fatores em ambientes residenciais e profissionais permite análises em tempo real pelos médicos, que podem oferecer recomendações personalizadas para melhorar as condições do ambiente e preservar a saúde dos pacientes, evitando complicações que poderiam ser negligenciadas sem monitoramento adequado.
+Essa é a tela do software que o profissional de saúde terá acesso para monitorar as condições de salubridade do ambiente em que seus pacientes estão:
+</p>
