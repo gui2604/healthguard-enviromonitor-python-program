@@ -24,8 +24,8 @@ Essa é a tela do software que o profissional de saúde terá acesso para monito
 <div align="center">
   <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/9ffabbc4-d135-4066-a515-726f0c2eff24" width="700px">
 </div>
-<p>Um “import json” com a finalidade de consumir e gerar arquivos externos, que serão os dados oriundos do sistema arduíno coletado pelos sensores instalados nos cômodos de cada paciente. 
+Um “import json” com a finalidade de consumir e gerar arquivos externos, que serão os dados oriundos do sistema arduíno coletado pelos sensores instalados nos cômodos de cada paciente. 
 Uma função *“forca_opcao”* para forçar a opção do usuário digitar apenas as opções possíveis.
 Uma função *“print_dic”* para printar dicionários a fim de tornar os dados armazenados nos dicionários mais visíveis
 Uma função *“fazer_login”* de autenticação de login, pedindo usuário, senha e crm do médico **(para fins de teste adotar usuário=”usuario123”, senha=”senha123” e crm=”123”)** que usará o sistema para monitorar o ambiente de seus pacientes.
-</p>
+
