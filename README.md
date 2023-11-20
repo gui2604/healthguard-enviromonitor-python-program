@@ -1,4 +1,4 @@
-<h1> Healguard EnviroMonitor </h1>
+<h1> Healthguard EnviroMonitor </h1>
 <h3>Guilherme Barreto Santos - RM97674</h3>
 <h3>Nicolas Oliveira da Silva - RM98939</h3>
 
