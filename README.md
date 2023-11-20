@@ -9,18 +9,23 @@ Nesse contexto, o projeto HealthGuard EnviroMonitor propõe um dispositivo equip
 Diversos ambientes podem apresentar características não perceptíveis que afetam a saúde e muitas vezes são negligenciadas. Exemplos incluem a umidade, onde a recomendação da OMS é entre 50% e 60%, pois índices superiores favorecem a proliferação de fungos e bactérias. A baixa umidade, por outro lado, pode causar problemas respiratórios. A luminosidade inadequada pode contribuir para a proliferação de microrganismos, enquanto a exposição excessiva à luz intensa pode ter efeitos prejudiciais à saúde.
 Similarmente, a medição da temperatura média do ambiente é crucial para a salubridade, especialmente em profissões que envolvem exposição prolongada a condições extremas. Esses três elementos – umidade, luminosidade e temperatura – constituem a base do projeto HealthGuard EnviroMonitor. 
 </p>
+
 <div align="center">
   <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/314fc0f3-e2c1-4d5e-9955-6603b2946760" width=700px>
 </div>
+
 <p>O monitoramento desses fatores em ambientes residenciais e profissionais permite análises em tempo real pelos médicos, que podem oferecer recomendações personalizadas para melhorar as condições do ambiente e preservar a saúde dos pacientes, evitando complicações que poderiam ser negligenciadas sem monitoramento adequado.
 Essa é a tela do software que o profissional de saúde terá acesso para monitorar as condições de salubridade do ambiente em que seus pacientes estão:
 </p>
+
 <div align="center">
   <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/caee3f66-d1e2-42d3-9aa6-118fd428a042" width=700px>
 </div>
+
 <p>Por meio dessa tela será possível o profissional da saúde acompanhar todos os dados medidos em cada cômodo, relacionado ao respectivo paciente e sua ficha, também podendo consultar cada paciente seu cadastrado.</p>
 <h3>Sistema:</h3>
 <p>Para isso, o sistema do funcionamento desse software foi escrito em Python, e o código fonte constitui-se da seguinte forma:</p>
+
 <div align="center">
   <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/9ffabbc4-d135-4066-a515-726f0c2eff24" width="700px">
 </div>
@@ -35,6 +40,15 @@ Essa é a tela do software que o profissional de saúde terá acesso para monito
 </div>
 
 <p>Uma função de cadastro de paciente “cadastrar_paciente”, responsável por realizar o cadastro de um paciente no sistema. Ela cria um novo dicionário chamado “novo_paciente”, que é um dicionário que armazenará todos os dados do paciente. A função analisa qual é o tipo de dado que existe nos dicionários de pacientes já armazenados, a fim de guardar os dados corretamente, veja a lista de pacientes:</p>
+<div align="center">
+  <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/e0e991bc-f32c-47ee-87ed-d905478c9bcc" width="700px">
+</div>
+
+<p>Essa é uma lista de pacientes, que guarda os dicionários de cadastro de cada paciente. Esse é um exemplo de um paciente. A função separa corretamente os inputs do usuário em cada tipo de dado presente na ficha do paciente, caso seja um dicionário, nesse caso o “cômodos” significa que um novo cômodo do paciente está prestes a ser cadastrado, e o programa irá consumir um arquivo externo para armazenar os dados coletados daquele cômodo, que virá no formato .json já especificado no próprio arquivo externo que o Arduino terá enviado, sendo adicionado no dicionário de cômodos do paciente.
+No final da função de cadastro, esse dicionário “novo_paciente” será adicionado à lista de pacientes: “pacientes”, cadastrando-o no sistema.
+A função “alterar_paciente” permite o usuário alterar dados de um paciente cadastrado, caso necessário:
+</p>
+
 <div align="center">
   <img src="" width="700px">
 </div>
