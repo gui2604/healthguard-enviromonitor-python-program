@@ -16,7 +16,7 @@ Similarmente, a medição da temperatura média do ambiente é crucial para a sa
 Essa é a tela do software que o profissional de saúde terá acesso para monitorar as condições de salubridade do ambiente em que seus pacientes estão:
 </p>
 <div align="center">
-  <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/caee3f66-d1e2-42d3-9aa6-118fd428a042" width=700px align="center">
+  <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/caee3f66-d1e2-42d3-9aa6-118fd428a042" width=700px>
 </div>
 <p>Por meio dessa tela será possível o profissional da saúde acompanhar todos os dados medidos em cada cômodo, relacionado ao respectivo paciente e sua ficha, também podendo consultar cada paciente seu cadastrado.</p>
 <h3>Sistema:</h3>
@@ -30,3 +30,11 @@ Essa é a tela do software que o profissional de saúde terá acesso para monito
 - Uma função “print_dic” para printar dicionários a fim de tornar os dados armazenados nos dicionários mais visíveis
 - Uma função “fazer_login” de autenticação de login, pedindo usuário, senha e crm do médico **(para fins de teste adotar usuário=”usuario123”, senha=”senha123” e crm=”123”)** que usará o sistema para monitorar o ambiente de seus pacientes.
 
+<div align="center">
+  <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/6401a83c-d514-4c79-8923-b574b698cfef" width="700px">
+</div>
+
+<p>Uma função de cadastro de paciente “cadastrar_paciente”, responsável por realizar o cadastro de um paciente no sistema. Ela cria um novo dicionário chamado “novo_paciente”, que é um dicionário que armazenará todos os dados do paciente. A função analisa qual é o tipo de dado que existe nos dicionários de pacientes já armazenados, a fim de guardar os dados corretamente, veja a lista de pacientes:</p>
+<div align="center">
+  <img src="" width="700px">
+</div>
