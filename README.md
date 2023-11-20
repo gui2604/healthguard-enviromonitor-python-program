@@ -50,5 +50,13 @@ A função “alterar_paciente” permite o usuário alterar dados de um pacient
 </p>
 
 <div align="center">
+  <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/3ff2bae3-3643-4148-8460-c997c6c9358b" width="700px">
+</div>
+
+<p>Ela primeiramente exibe, enumerando todos os pacientes cadastrados e pele para o usuário digitar o número correspondente do paciente cadastrado que deseja realizar alterações. Ela força o usuário a escolher apenas pacientes que estão cadastrados e pergunta qual dado específico o usuário deseja alterar. O programa avalia o tipo de dado escolhido e toma uma decisão de acordo com o tipo de dado, caso seja um dicionário, ele prevê que se trata dos cômodos e consome um arquivo externo para atualizar os cômodos desse paciente, caso contrário apenas pede para o usuário digitar o novo dado.
+No final da função, ela pergunta se o usuário quer continuar alterando mais dados desse paciente, caso contrário, encerra a operação.
+</p>
+
+<div align="center">
   <img src="" width="700px">
 </div>
