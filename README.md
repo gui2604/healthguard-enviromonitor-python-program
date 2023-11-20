@@ -13,3 +13,7 @@ Similarmente, a medição da temperatura média do ambiente é crucial para a sa
 <p>O monitoramento desses fatores em ambientes residenciais e profissionais permite análises em tempo real pelos médicos, que podem oferecer recomendações personalizadas para melhorar as condições do ambiente e preservar a saúde dos pacientes, evitando complicações que poderiam ser negligenciadas sem monitoramento adequado.
 Essa é a tela do software que o profissional de saúde terá acesso para monitorar as condições de salubridade do ambiente em que seus pacientes estão:
 </p>
+<img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/caee3f66-d1e2-42d3-9aa6-118fd428a042" width=300px>
+<p>Por meio dessa tela será possível o profissional da saúde acompanhar todos os dados medidos em cada cômodo, relacionado ao respectivo paciente e sua ficha, também podendo consultar cada paciente seu cadastrado.</p>
+<h3 style="color: blue;">Sistema:</h3>
+<p>Para isso, o sistema do funcionamento desse software foi escrito em Python, e o código fonte constitui-se da seguinte forma:</p>
