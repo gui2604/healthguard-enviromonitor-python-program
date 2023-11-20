@@ -58,5 +58,14 @@ No final da função, ela pergunta se o usuário quer continuar alterando mais d
 </p>
 
 <div align="center">
+  <img src="https://github.com/gui2604/healthguard-enviromonitor-python-program/assets/128194162/cf917d17-006c-4d19-b18e-200e49a87017" width="700px">
+</div>
+
+<p>A função “deletar_paciente” permite ao usuário deletar um paciente cadastrado. Ela enumera os pacientes cadastrados e pede para o usuário digitar o número correspondente atribuído na enumeração, forçando essa opção e posteriormente removendo todo o dicionário desse paciente da lista de pacientes.
+A função “consultar_paciente” permite o usuário a consultar todos os dados do dicionário de um determinado paciente. Ele faz a enumeração dos pacientes e pede para o usuário digitar o número corresponde atribuído nessa enumeração, exibindo os dados do dicionário completo desse paciente utilizando a função “print_dic”.
+Aqui está a execução do programa propriamente dito:
+</p>
+
+<div align="center">
   <img src="" width="700px">
 </div>
